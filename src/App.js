@@ -4,6 +4,7 @@ import Home from './containers/Public/Home';
 import { Login, Register } from './containers/Public';
 
 const App = () => {
+  
   return (
     <div className='h-screen w-screen bg-primary'>
       <Routes>
@@ -11,7 +12,7 @@ const App = () => {
             <Route path={path.LOGIN} element={<Login />}/>
             <Route path={path.REGISTER} element={<Register />}/>
         </Route>
-      </Routes>    
+      </Routes>
     </div>
   )
 }

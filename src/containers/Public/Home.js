@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header'
 import { Outlet } from 'react-router-dom'
+import Header from './Header'
 import Navigation from './Navigation'
 
 const Home = () => {
@@ -11,7 +11,6 @@ const Home = () => {
       <div className='flex justify-center'>
         <Outlet />
       </div>
-     
     </div>
   )
 }
